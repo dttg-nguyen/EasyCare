@@ -8,7 +8,8 @@ import * as patientData from '../data/searchPatientResult.json';
 })
 export class ProfileComponent implements OnInit {
   patient;
-
+  tableNameSpan: number = 2;
+  tableNameSpanColor: string = 'blue';
   constructor() {}
 
   ngOnInit(): void {

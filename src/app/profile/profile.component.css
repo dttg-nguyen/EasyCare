@@ -1,0 +1,21 @@
+table,
+table tr,
+table td,
+table th {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  min-width: 200px;
+}
+
+table th {
+  font-size: medium;
+  background-color: #627cd1;
+  color: white;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}

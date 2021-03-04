@@ -19,6 +19,9 @@ import { MatChipsModule } from '@angular/material/chips';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { ProfileComponent } from './profile/profile.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatRadioModule } from '@angular/material/radio';
 
 @NgModule({
   declarations: [AppComponent, ProfileComponent, NotFoundComponent],
@@ -38,6 +41,9 @@ import { NotFoundComponent } from './not-found/not-found.component';
     MatCardModule,
     MatChipsModule,
     FlexLayoutModule,
+    MatRadioModule,
+    MatCheckboxModule,
+    MatGridListModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -23,7 +23,7 @@
     "clinicVisit": [
       {
         "clinic": "Apple Tree Clinic",
-        "typeOfVisit": "in-person",
+        "typeOfVisit": "In-person",
         "doctor": "Sam Smith",
         "date": "Mar 1, 2021",
         "reason": "Shortness of breath",
@@ -31,24 +31,40 @@
       },
       {
         "clinic": "Mango Tree Clinic",
-        "typeOfVisit": "virtual",
+        "typeOfVisit": "Virtual",
         "doctor": "John Smith",
         "date": "Mar 2, 2021",
+        "reason": "Stomachache",
+        "prescription": "stomachRelax"
+      },
+      {
+        "clinic": "Lemon Tree Clinic",
+        "typeOfVisit": "In-person",
+        "doctor": "Ann Smith",
+        "date": "Mar 3, 2021",
+        "reason": "Shortness of breath",
+        "prescription": "Atrovent®"
+      },
+      {
+        "clinic": "Happy Tree Clinic",
+        "typeOfVisit": "Virtual",
+        "doctor": "Emma Smith",
+        "date": "Mar 4, 2021",
         "reason": "Stomachache",
         "prescription": "stomachRelax"
       }
     ],
     "vaccination": [
       {
-        "vaccine": "measles",
+        "vaccine": "Measles",
         "date": "Jan 1, 2021"
       },
       {
-        "vaccine": "chickenpox",
+        "vaccine": "Chickenpox",
         "date": "Feb 1, 2021"
       },
       {
-        "vaccine": "coronavirus",
+        "vaccine": "Coronavirus",
         "date": "Mar 1, 2021"
       }
     ]
