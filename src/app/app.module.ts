@@ -17,14 +17,15 @@ import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
 import { MatChipsModule } from '@angular/material/chips';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { ProfileComponent } from './profile/profile.component';
-import { NotFoundComponent } from './not-found/not-found.component';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatGridListModule } from '@angular/material/grid-list';
-import { MatRadioModule } from '@angular/material/radio';
+
+import { ProfileComponent } from './profile/profile.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
-  declarations: [AppComponent, ProfileComponent, NotFoundComponent],
+  declarations: [AppComponent, ProfileComponent, NotFoundComponent, HomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -41,7 +42,6 @@ import { MatRadioModule } from '@angular/material/radio';
     MatCardModule,
     MatChipsModule,
     FlexLayoutModule,
-    MatRadioModule,
     MatCheckboxModule,
     MatGridListModule,
   ],

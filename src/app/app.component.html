@@ -7,7 +7,7 @@
       <mat-icon>menu</mat-icon>
     </button>
 
-    <a class="navbar-brand" matTooltip="Home">
+    <a class="navbar-brand" matTooltip="Home" routerLink='/home'>
       <h1>
         EasyCare
       </h1>
@@ -37,14 +37,13 @@
     <mat-sidenav #snav [opened]="false" [mode]="'side'" [fixedInViewport]="true" fixedTopGap="56">
 
       <mat-nav-list>
-        <div>
+        <!-- <div>
           <mat-form-field appearance="fill">
             <mat-label>Artist</mat-label>
             <input matInput type="text">
             <mat-icon matSuffix>search</mat-icon>
           </mat-form-field>
-        </div>
-
+        </div> -->
 
         <a mat-list-item routerLink="/profile">
           <mat-icon mat-list-icon>
