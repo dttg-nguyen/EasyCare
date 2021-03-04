@@ -1,0 +1,56 @@
+{
+  "_id": "123456abc",
+  "joinFrom": "Mar 2, 2021",
+  "firstName": "Giang",
+  "lastName": "Nguyen",
+  "dob": "Mar 3, 2021",
+  "gender": "Female",
+  "phone": 4371231212,
+  "address": "123 Main St., Toronto, On. M1A 2B2",
+  "healthProfile": {
+    "geneticDisease": "no",
+    "diabetes": "no",
+    "heartDisease": "no",
+    "cancer": "no",
+    "weightInLbs": 99,
+    "heightInF": 5.2,
+    "alcoholConsumption": "no",
+    "tobaccoConsumption": "no",
+    "pregnancy": "no",
+    "allergies": "no"
+  },
+  "medicalRecord": {
+    "clinicVisit": [
+      {
+        "clinic": "Apple Tree Clinic",
+        "typeOfVisit": "in-person",
+        "doctor": "Sam Smith",
+        "date": "Mar 1, 2021",
+        "reason": "Shortness of breath",
+        "prescription": "Atrovent®"
+      },
+      {
+        "clinic": "Mango Tree Clinic",
+        "typeOfVisit": "virtual",
+        "doctor": "John Smith",
+        "date": "Mar 2, 2021",
+        "reason": "Stomachache",
+        "prescription": "stomachRelax"
+      }
+    ],
+    "vaccination": [
+      {
+        "vaccine": "measles",
+        "date": "Jan 1, 2021"
+      },
+      {
+        "vaccine": "chickenpox",
+        "date": "Feb 1, 2021"
+      },
+      {
+        "vaccine": "coronavirus",
+        "date": "Mar 1, 2021"
+      }
+    ]
+  }
+}
