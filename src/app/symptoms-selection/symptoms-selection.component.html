@@ -1,0 +1,60 @@
+<mat-horizontal-stepper>
+    <mat-step label="Select symptoms">
+        <mat-checkbox>Bloating</mat-checkbox> <br />
+        <mat-checkbox>Constipation</mat-checkbox><br />
+        <mat-checkbox>Diarrhea</mat-checkbox><br />
+        <mat-checkbox>Abdominal pain</mat-checkbox><br /> <br />
+        <div>
+            <button mat-button matStepperNext>Next</button>
+        </div>
+    </mat-step>
+    <mat-step label="Select more specific related symptoms">
+        <mat-checkbox>Bleeding</mat-checkbox><br />
+        <mat-checkbox>Nausea</mat-checkbox><br />
+        <mat-checkbox>Vomiting</mat-checkbox><br />
+        <mat-checkbox>Coughing</mat-checkbox><br /><br />
+        <div>
+            <button mat-button matStepperPrevious>Back</button>
+            <button mat-button matStepperNext>Next</button>
+        </div>
+    </mat-step>
+    <mat-step label="Select areas experiencing discomfort">
+        <mat-checkbox>Upper chest</mat-checkbox><br />
+        <mat-checkbox>Lower chest</mat-checkbox><br />
+        <mat-checkbox>Upper abdominal</mat-checkbox><br />
+        <mat-checkbox>Lower abdominal</mat-checkbox><br /><br />
+        <div>
+            <button mat-button matStepperPrevious>Back</button>
+            <button mat-button matStepperNext>Next</button>
+        </div>
+    </mat-step>
+    <mat-step label="Assessment">
+        <mat-card class="assessment">
+            <mat-card-header>
+                <div mat-card-avatar>
+                    <mat-icon>
+                        assessment
+                    </mat-icon>
+                </div>
+                <mat-card-title>
+                    A S S E S S M E N T
+                </mat-card-title>
+            </mat-card-header>
+            <h3>Here is the assessment generated from the symptoms that you described.</h3>
+            <p>You have chosen <strong>Gastroenterology</strong> for your concern. Your symptoms are
+                <strong>bloating, abdominal pain and coughing.</strong>You are experiencing these symptoms around lower
+                chest
+                and upper abdominal.
+            </p>
+            <p>It is appeared to be a sign of heartburn.</p>
+            <br />
+            <p><strong>Would you like to proceed with an e-prescription validated by our doctor or would you like to
+                    schedule a
+                    virtual examination?</strong></p>
+            <mat-chip-list>
+                <mat-chip routerLink="/e-prescription">E-prescription</mat-chip>
+                <mat-chip routerLink="/virtual-exam">Virtual exam</mat-chip>
+            </mat-chip-list>
+        </mat-card>
+    </mat-step>
+</mat-horizontal-stepper>

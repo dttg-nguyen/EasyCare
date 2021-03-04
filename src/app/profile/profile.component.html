@@ -35,80 +35,80 @@
         <mat-grid-list cols="8" rowHeight="30px">
             <mat-grid-tile>Genetic Disease: </mat-grid-tile>
             <mat-grid-tile>
-                <mat-checkbox> Yes </mat-checkbox>
+                <input type="checkbox" [checked]="patient.healthProfile.geneticDisease == 'true'">Yes
             </mat-grid-tile>
             <mat-grid-tile>
-                <mat-checkbox value="no" true> No </mat-checkbox>
+                <input type="checkbox" [checked]="patient.healthProfile.geneticDisease == 'false'">No
             </mat-grid-tile>
         </mat-grid-list>
 
         <mat-grid-list cols="8" rowHeight="30px">
             <mat-grid-tile>Diabetes: </mat-grid-tile>
             <mat-grid-tile>
-                <mat-checkbox value="yes"> Yes </mat-checkbox>
+                <input type="checkbox" [checked]="patient.healthProfile.diabetes == 'true'">Yes
             </mat-grid-tile>
             <mat-grid-tile>
-                <mat-checkbox value="no"> No </mat-checkbox>
+                <input type="checkbox" [checked]="patient.healthProfile.diabetes == 'false'">No
             </mat-grid-tile>
         </mat-grid-list>
 
         <mat-grid-list cols="8" rowHeight="30px">
             <mat-grid-tile>Heart Disease: </mat-grid-tile>
             <mat-grid-tile>
-                <mat-checkbox value="yes"> Yes </mat-checkbox>
+                <input type="checkbox" [checked]="patient.healthProfile.heartDisease =='true'">Yes
             </mat-grid-tile>
             <mat-grid-tile>
-                <mat-checkbox value="no"> No </mat-checkbox>
+                <input type="checkbox" [checked]="patient.healthProfile.heartDisease == 'false'">No
             </mat-grid-tile>
         </mat-grid-list>
 
         <mat-grid-list cols="8" rowHeight="30px">
             <mat-grid-tile>Cancer: </mat-grid-tile>
             <mat-grid-tile>
-                <mat-checkbox value="yes"> Yes </mat-checkbox>
+                <input type="checkbox" [checked]="patient.healthProfile.cancer =='true'">Yes
             </mat-grid-tile>
             <mat-grid-tile>
-                <mat-checkbox value="no"> No </mat-checkbox>
+                <input type="checkbox" [checked]="patient.healthProfile.cancer == 'false'">No
             </mat-grid-tile>
         </mat-grid-list>
 
         <mat-grid-list cols="8" rowHeight="30px">
             <mat-grid-tile>Alcohol Consumption: </mat-grid-tile>
             <mat-grid-tile>
-                <mat-checkbox value="yes"> Yes </mat-checkbox>
+                <input type="checkbox" [checked]="patient.healthProfile.alcoholConsumption =='true'">Yes
             </mat-grid-tile>
             <mat-grid-tile>
-                <mat-checkbox value="no"> No </mat-checkbox>
+                <input type="checkbox" [checked]="patient.healthProfile.alcoholConsumption == 'false'">No
             </mat-grid-tile>
         </mat-grid-list>
 
         <mat-grid-list cols="8" rowHeight="30px">
             <mat-grid-tile>Tobacco Consumption: </mat-grid-tile>
             <mat-grid-tile>
-                <mat-checkbox value="yes"> Yes </mat-checkbox>
+                <input type="checkbox" [checked]="patient.healthProfile.tobaccoConsumption =='true'">Yes
             </mat-grid-tile>
             <mat-grid-tile>
-                <mat-checkbox value="no"> No </mat-checkbox>
+                <input type="checkbox" [checked]="patient.healthProfile.tobaccoConsumption == 'false'">No
             </mat-grid-tile>
         </mat-grid-list>
 
         <mat-grid-list cols="8" rowHeight="30px">
             <mat-grid-tile>Pregnancy: </mat-grid-tile>
             <mat-grid-tile>
-                <mat-checkbox value="yes"> Yes </mat-checkbox>
+                <input type="checkbox" [checked]="patient.healthProfile.pregnancy =='true'">Yes
             </mat-grid-tile>
             <mat-grid-tile>
-                <mat-checkbox value="no"> No </mat-checkbox>
+                <input type="checkbox" [checked]="patient.healthProfile.pregnancy == 'false'">No
             </mat-grid-tile>
         </mat-grid-list>
 
         <mat-grid-list cols="8" rowHeight="30px">
             <mat-grid-tile>Allergies: </mat-grid-tile>
             <mat-grid-tile>
-                <mat-checkbox value="yes"> Yes </mat-checkbox>
+                <input type="checkbox" [checked]="patient.healthProfile.allergies =='true'">Yes
             </mat-grid-tile>
             <mat-grid-tile>
-                <mat-checkbox value="no"> No </mat-checkbox>
+                <input type="checkbox" [checked]="patient.healthProfile.allergies == 'false'">No
             </mat-grid-tile>
         </mat-grid-list>
     </mat-list>

@@ -1,23 +1,23 @@
 {
   "_id": "123456abc",
-  "joinFrom": "Mar 2, 2021",
+  "joinFrom": "Mar 1, 2021",
   "firstName": "Giang",
   "lastName": "Nguyen",
-  "dob": "Mar 3, 2021",
+  "dob": "Mar 2, 2021",
   "gender": "Female",
   "phone": 4371231212,
   "address": "123 Main St., Toronto, On. M1A 2B2",
   "healthProfile": {
-    "geneticDisease": "no",
-    "diabetes": "no",
-    "heartDisease": "no",
-    "cancer": "no",
+    "geneticDisease": "false",
+    "diabetes": "false",
+    "heartDisease": "false",
+    "cancer": "false",
     "weightInLbs": 99,
     "heightInF": 5.2,
-    "alcoholConsumption": "no",
-    "tobaccoConsumption": "no",
-    "pregnancy": "no",
-    "allergies": "no"
+    "alcoholConsumption": "false",
+    "tobaccoConsumption": "false",
+    "pregnancy": "false",
+    "allergies": "false"
   },
   "medicalRecord": {
     "clinicVisit": [

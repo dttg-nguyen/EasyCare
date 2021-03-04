@@ -1,0 +1,36 @@
+<mat-card class="e-prescription">
+    <mat-card-header>
+        <div mat-card-avatar>
+            <mat-icon>
+                print
+            </mat-icon>
+        </div>
+        <mat-card-title>
+            E - P R E S C R I P T I O N
+        </mat-card-title>
+    </mat-card-header>
+    <hr />
+    <div style="text-align: center;">
+        <h3>Apple Tree Medical Clinic</h3>
+        <p>123 Main Str.</p>
+        <p>Toronto, ON M1A2B2</p>
+    </div>
+    <mat-card-content>
+        <p><b>Date:</b> {{date | date:'dd-MMM-yyyy hh:mm a'}}</p>
+        <p><b>Patient name:</b> {{patient.firstName}} {{patient.lastName}}</p>
+        <p><b>Address:</b> {{patient.address}}</p>
+        <p><b>DOB:</b> {{patient.dob}}</p>
+        <p><b>RX:</b> heartBurnNoMore® <br /> 1 tablet per day x 10 days</p>
+        <p><b>Refill:</b> 1</p>
+        <br />
+        <p><b>Verified by</b></p>
+        <p>Sam Smith</p>
+        <p>M.D.</p>
+        <p>Liciense No. 123456</p>
+    </mat-card-content>
+    <br /> <br />
+    <mat-chip-list>
+        <mat-chip>Print</mat-chip>
+        <mat-chip>Buy now</mat-chip>
+    </mat-chip-list>
+</mat-card>

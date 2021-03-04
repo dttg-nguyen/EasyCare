@@ -19,13 +19,27 @@ import { MatChipsModule } from '@angular/material/chips';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { MatStepperModule } from '@angular/material/stepper';
 
 import { ProfileComponent } from './profile/profile.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { HomeComponent } from './home/home.component';
+import { MedicalExamComponent } from './medical-exam/medical-exam.component';
+import { EPrescriptionComponent } from './e-prescription/e-prescription.component';
+import { VirtualExamComponent } from './virtual-exam/virtual-exam.component';
+import { SymptomsSelectionComponent } from './symptoms-selection/symptoms-selection.component';
 
 @NgModule({
-  declarations: [AppComponent, ProfileComponent, NotFoundComponent, HomeComponent],
+  declarations: [
+    AppComponent,
+    ProfileComponent,
+    NotFoundComponent,
+    HomeComponent,
+    MedicalExamComponent,
+    EPrescriptionComponent,
+    VirtualExamComponent,
+    SymptomsSelectionComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -44,6 +58,7 @@ import { HomeComponent } from './home/home.component';
     FlexLayoutModule,
     MatCheckboxModule,
     MatGridListModule,
+    MatStepperModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
