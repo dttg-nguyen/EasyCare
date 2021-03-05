@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "123456abc",
+    "name": "Pineapple Drug Mart",
+    "address": "123 Somewhere",
+    "phone": 9878998909
+  },
+  {
+    "_id": "12356abc",
+    "name": "Cherry Drug Mart",
+    "address": "456 Sub Str.",
+    "phone": 9356890956
+  },
+  {
+    "_id": "1256abc",
+    "name": "Blueberry Drug Mart",
+    "address": "789 Summer Str.",
+    "phone": 1238099899
+  },
+  {
+    "_id": "1236abc",
+    "name": "Strawberry Drug Mart",
+    "address": "012 Field Str.",
+    "phone": 2365680086
+  },
+  {
+    "_id": "156abc",
+    "name": "Guava Drug Mart",
+    "address": "356 Sun Str.",
+    "phone": 9983982989
+  },
+  {
+    "_id": "16abc",
+    "name": "Orange Drug Mart",
+    "address": "890 Yellow Str.",
+    "phone": 1236789303
+  }
+]

@@ -5,8 +5,9 @@ import { MedicalExamComponent } from './medical-exam/medical-exam.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ProfileComponent } from './profile/profile.component';
 import { EPrescriptionComponent } from './e-prescription/e-prescription.component';
-import { VirtualExamComponent } from './virtual-exam/virtual-exam.component';
 import { SymptomsSelectionComponent } from './symptoms-selection/symptoms-selection.component';
+import { PharmaciesComponent } from './pharmacies/pharmacies.component';
+import { ClinicsComponent } from './clinics/clinics.component';
 
 const routes: Routes = [
   { path: 'profile', component: ProfileComponent },
@@ -14,6 +15,8 @@ const routes: Routes = [
   { path: 'medical-exam', component: MedicalExamComponent },
   { path: 'symptoms-selection', component: SymptomsSelectionComponent },
   { path: 'e-prescription', component: EPrescriptionComponent },
+  { path: 'pharmacies', component: PharmaciesComponent },
+  { path: 'clinics', component: ClinicsComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: NotFoundComponent },
 ];

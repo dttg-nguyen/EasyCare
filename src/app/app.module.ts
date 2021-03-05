@@ -26,8 +26,9 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { HomeComponent } from './home/home.component';
 import { MedicalExamComponent } from './medical-exam/medical-exam.component';
 import { EPrescriptionComponent } from './e-prescription/e-prescription.component';
-import { VirtualExamComponent } from './virtual-exam/virtual-exam.component';
 import { SymptomsSelectionComponent } from './symptoms-selection/symptoms-selection.component';
+import { PharmaciesComponent } from './pharmacies/pharmacies.component';
+import { ClinicsComponent } from './clinics/clinics.component';
 
 @NgModule({
   declarations: [
@@ -37,8 +38,9 @@ import { SymptomsSelectionComponent } from './symptoms-selection/symptoms-select
     HomeComponent,
     MedicalExamComponent,
     EPrescriptionComponent,
-    VirtualExamComponent,
     SymptomsSelectionComponent,
+    PharmaciesComponent,
+    ClinicsComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,23 @@
+<h2><b>Schedule a virtual exam</b></h2>
+<p>List of clinics near you.</p>
+<hr />
+<img src='../../assets/clinicMap.JPG' style="width: 70%;"><br /><br />
+<table class="clinics">
+    <thead>
+        <tr>
+            <th>Clinic</th>
+            <th>Phone number</th>
+            <th>Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let clinic of clinics">
+            <td>{{clinic.name}}</td>
+            <td>+{{clinic.phone}}</td>
+            <td>{{clinic.address}}</td>
+            <td style="background-color: rgb(97, 121, 201);">
+                <a href="#" style="color: white;">Book an appointment</a>
+            </td>
+        </tr>
+    </tbody>
+</table>

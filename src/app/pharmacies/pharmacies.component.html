@@ -1,0 +1,22 @@
+<h2><b>P H A R M A C I E S</b></h2>
+<hr />
+<img src='../../assets/pharmacyMap.JPG' style="width: 70%;"><br /><br />
+<table class="pharmacies">
+    <thead>
+        <tr>
+            <th>Pharmacy</th>
+            <th>Phone number</th>
+            <th>Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let pharmacy of pharmacies">
+            <td>{{pharmacy.name}}</td>
+            <td>+{{pharmacy.phone}}</td>
+            <td>{{pharmacy.address}}</td>
+            <td style="background-color: rgb(97, 121, 201);">
+                <a href="#" style="color: white;">Buy now</a>
+            </td>
+        </tr>
+    </tbody>
+</table>

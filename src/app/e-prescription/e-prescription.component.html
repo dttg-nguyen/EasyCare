@@ -16,7 +16,7 @@
         <p>Toronto, ON M1A2B2</p>
     </div>
     <mat-card-content>
-        <p><b>Date:</b> {{date | date:'dd-MMM-yyyy hh:mm a'}}</p>
+        <p><b>Date:</b> {{date | date:'dd-MMM-yyyy hh:mm:ss a'}}</p>
         <p><b>Patient name:</b> {{patient.firstName}} {{patient.lastName}}</p>
         <p><b>Address:</b> {{patient.address}}</p>
         <p><b>DOB:</b> {{patient.dob}}</p>
@@ -26,11 +26,11 @@
         <p><b>Verified by</b></p>
         <p>Sam Smith</p>
         <p>M.D.</p>
-        <p>Liciense No. 123456</p>
+        <p>License No. 123456</p>
     </mat-card-content>
-    <br /> <br />
+    <br />
     <mat-chip-list>
         <mat-chip>Print</mat-chip>
-        <mat-chip>Buy now</mat-chip>
+        <mat-chip routerLink='/pharmacies'>Buy now</mat-chip>
     </mat-chip-list>
 </mat-card>
