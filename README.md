@@ -1,4 +1,15 @@
 # Myapp
+Hi there,
+
+My name is Giang Nguyen. I am a student of Computer Programming and Analysis.
+
+This is a prototype of a centralized health care platform I built for Seneca - Digital Health Hackathon 2021.
+
+It was built from scratch in my free time from Mar 3 to Mar 4, 2021. I used HTML, CSS, TypeScript, Angular to build the application since I was learning Angular at the time.
+
+Here is my another project that simulates airBnB and was deployed to Heroku: https://evening-river-85102.herokuapp.com/
+
+Thank you for visiting!
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
 
