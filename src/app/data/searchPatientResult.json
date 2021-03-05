@@ -5,7 +5,7 @@
   "lastName": "Nguyen",
   "dob": "Mar 2, 2021",
   "gender": "Female",
-  "phone": 4371231212,
+  "phone": "437-123-1212",
   "address": "123 Main St., Toronto, On. M1A 2B2",
   "healthProfile": {
     "geneticDisease": "false",
@@ -22,6 +22,7 @@
   "medicalRecord": {
     "clinicVisit": [
       {
+        "_id": "1",
         "clinic": "Apple Tree Clinic",
         "typeOfVisit": "In-person",
         "doctor": "Sam Smith",
@@ -30,6 +31,7 @@
         "prescription": "Atrovent®"
       },
       {
+        "_id": "2",
         "clinic": "Mango Tree Clinic",
         "typeOfVisit": "Virtual",
         "doctor": "John Smith",
@@ -38,6 +40,7 @@
         "prescription": "stomachRelax"
       },
       {
+        "_id": "3",
         "clinic": "Lemon Tree Clinic",
         "typeOfVisit": "In-person",
         "doctor": "Ann Smith",
@@ -46,6 +49,7 @@
         "prescription": "Atrovent®"
       },
       {
+        "_id": "4",
         "clinic": "Happy Tree Clinic",
         "typeOfVisit": "Virtual",
         "doctor": "Emma Smith",
@@ -56,14 +60,17 @@
     ],
     "vaccination": [
       {
+        "_id": "1",
         "vaccine": "Measles",
         "date": "Jan 1, 2021"
       },
       {
+        "_id": "2",
         "vaccine": "Chickenpox",
         "date": "Feb 1, 2021"
       },
       {
+        "_id": "3",
         "vaccine": "Coronavirus",
         "date": "Mar 1, 2021"
       }

@@ -1,9 +1,10 @@
 <h2><b>P H A R M A C I E S</b></h2>
 <hr />
-<img src='../../assets/pharmacyMap.JPG' style="width: 70%;"><br /><br />
+<img src='../../assets/pharmacyMap.JPG'><br /><br />
 <table class="pharmacies">
     <thead>
         <tr>
+            <th>No.</th>
             <th>Pharmacy</th>
             <th>Phone number</th>
             <th>Address</th>
@@ -11,6 +12,7 @@
     </thead>
     <tbody>
         <tr *ngFor="let pharmacy of pharmacies">
+            <td>{{pharmacy._id}}</td>
             <td>{{pharmacy.name}}</td>
             <td>+{{pharmacy.phone}}</td>
             <td>{{pharmacy.address}}</td>

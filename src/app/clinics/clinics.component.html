@@ -1,10 +1,11 @@
 <h2><b>Schedule a virtual exam</b></h2>
 <p>List of clinics near you.</p>
 <hr />
-<img src='../../assets/clinicMap.JPG' style="width: 70%;"><br /><br />
+<img src='../../assets/clinicMap.JPG'><br /><br />
 <table class="clinics">
     <thead>
         <tr>
+            <th>No.</th>
             <th>Clinic</th>
             <th>Phone number</th>
             <th>Address</th>
@@ -12,6 +13,7 @@
     </thead>
     <tbody>
         <tr *ngFor="let clinic of clinics">
+            <td>{{clinic._id}}</td>
             <td>{{clinic.name}}</td>
             <td>+{{clinic.phone}}</td>
             <td>{{clinic.address}}</td>

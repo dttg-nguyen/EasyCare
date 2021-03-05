@@ -137,6 +137,7 @@
     <table>
         <thead>
             <tr>
+                <th>No.</th>
                 <th>Clinic</th>
                 <th>Date of visit</th>
                 <th>Reason of visit</th>
@@ -147,6 +148,7 @@
         </thead>
         <tbody>
             <tr *ngFor="let record of patient.medicalRecord.clinicVisit">
+                <td>{{record._id}}</td>
                 <td>{{record.clinic}}</td>
                 <td>{{record.date}}</td>
                 <td>{{record.reason}}</td>
@@ -160,12 +162,14 @@
     <table>
         <thead>
             <tr>
+                <th>No.</th>
                 <th>Vaccine</th>
                 <th>Date of last vaccination</th>
             </tr>
         </thead>
         <tbody>
             <tr *ngFor="let record of patient.medicalRecord.vaccination">
+                <td>{{record._id}}</td>
                 <td>{{record.vaccine}}</td>
                 <td>{{record.date}}</td>
             </tr>

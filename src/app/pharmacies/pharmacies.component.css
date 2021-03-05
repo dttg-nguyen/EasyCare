@@ -4,10 +4,8 @@ table td,
 table th {
   border: 1px solid #ddd;
   border-collapse: collapse;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding: 12px 5px;
   text-align: center;
-  min-width: 200px;
 }
 
 table th {

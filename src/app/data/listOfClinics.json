@@ -1,38 +1,38 @@
 [
   {
-    "_id": "123456abc",
+    "_id": "1",
     "name": "Apple Tree Clinic",
     "address": "123 Somewhere",
-    "phone": 9878998909
+    "phone": "416-899-8909"
   },
   {
-    "_id": "12356abc",
+    "_id": "2",
     "name": "Mango Tree Clinic",
     "address": "456 Sub Str.",
-    "phone": 1238901230
+    "phone": "416-890-1230"
   },
   {
-    "_id": "1256abc",
+    "_id": "3",
     "name": "Lemon Tree Clinic",
     "address": "789 Summer Str.",
-    "phone": 2309823890
+    "phone": "416-982-3890"
   },
   {
-    "_id": "1236abc",
+    "_id": "4",
     "name": "Happy Tree Clinic",
     "address": "012 Field Str.",
-    "phone": 1556902386
+    "phone": "416-690-2386"
   },
   {
-    "_id": "156abc",
+    "_id": "5",
     "name": "Orange Tree Clinic",
     "address": "356 Sun Str.",
-    "phone": 5620935689
+    "phone": "416-093-5689"
   },
   {
-    "_id": "16abc",
+    "_id": "6",
     "name": "Tree Tree Clinic",
     "address": "890 Yellow Str.",
-    "phone": 9812389655
+    "phone": "416-238-9655"
   }
 ]
