@@ -7,7 +7,7 @@ This is a prototype of a centralized health care platform I built for Seneca - D
 
 It was built from scratch in my free time from Mar 3 to Mar 4, 2021. I used HTML, CSS, TypeScript, Angular to build the application since I was learning Angular at the time.
 
-Here is my another project that simulates airBnB and was deployed to Heroku: https://serene-ridge-65725.herokuapp.com/
+Here is my another project that simulates airBnB and was deployed to Heroku: https://evening-river-85102.herokuapp.com/
 
 Thank you for visiting!
 
