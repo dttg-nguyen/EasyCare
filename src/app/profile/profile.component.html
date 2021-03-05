@@ -18,7 +18,9 @@
         <p> <strong>Address:</strong> {{patient.address}}</p>
     </mat-card-content>
 </mat-card>
+
 <br /> <br />
+
 <mat-card class="patient-healthProfile">
     <mat-card-header>
         <div mat-card-avatar>
@@ -112,8 +114,14 @@
             </mat-grid-tile>
         </mat-grid-list>
     </mat-list>
+    <br />
+    <mat-chip-list>
+        <mat-chip routerLink="/profile">Update health profile</mat-chip>
+    </mat-chip-list>
 </mat-card>
+
 <br /> <br />
+
 <mat-card class="patient-medicalRecords">
     <mat-card-header>
         <div mat-card-avatar>

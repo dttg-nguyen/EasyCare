@@ -8,10 +8,12 @@ import { EPrescriptionComponent } from './e-prescription/e-prescription.componen
 import { SymptomsSelectionComponent } from './symptoms-selection/symptoms-selection.component';
 import { PharmaciesComponent } from './pharmacies/pharmacies.component';
 import { ClinicsComponent } from './clinics/clinics.component';
+import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
   { path: 'profile', component: ProfileComponent },
   { path: 'home', component: HomeComponent },
+  { path: 'about', component: AboutComponent },
   { path: 'medical-exam', component: MedicalExamComponent },
   { path: 'symptoms-selection', component: SymptomsSelectionComponent },
   { path: 'e-prescription', component: EPrescriptionComponent },

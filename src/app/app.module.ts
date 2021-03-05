@@ -20,6 +20,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatStepperModule } from '@angular/material/stepper';
+import { MatBadgeModule } from '@angular/material/badge';
 
 import { ProfileComponent } from './profile/profile.component';
 import { NotFoundComponent } from './not-found/not-found.component';
@@ -29,6 +30,7 @@ import { EPrescriptionComponent } from './e-prescription/e-prescription.componen
 import { SymptomsSelectionComponent } from './symptoms-selection/symptoms-selection.component';
 import { PharmaciesComponent } from './pharmacies/pharmacies.component';
 import { ClinicsComponent } from './clinics/clinics.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +43,7 @@ import { ClinicsComponent } from './clinics/clinics.component';
     SymptomsSelectionComponent,
     PharmaciesComponent,
     ClinicsComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
@@ -61,6 +64,7 @@ import { ClinicsComponent } from './clinics/clinics.component';
     MatCheckboxModule,
     MatGridListModule,
     MatStepperModule,
+    MatBadgeModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

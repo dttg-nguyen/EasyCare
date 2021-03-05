@@ -37,14 +37,6 @@
     <mat-sidenav #snav [opened]="false" [mode]="'side'" [fixedInViewport]="true" fixedTopGap="56">
 
       <mat-nav-list>
-        <!-- <div>
-          <mat-form-field appearance="fill">
-            <mat-label>Artist</mat-label>
-            <input matInput type="text">
-            <mat-icon matSuffix>search</mat-icon>
-          </mat-form-field>
-        </div> -->
-
         <a mat-list-item routerLink="/home">
           <mat-icon mat-list-icon>
             home
@@ -60,7 +52,7 @@
         </a>
 
         <a mat-list-item routerLink="/inbox">
-          <mat-icon mat-list-icon>
+          <mat-icon mat-list-icon matBadge="2" matBadgeColor="warn">
             mail
           </mat-icon>
           <p mat-line> Inbox </p>
@@ -75,7 +67,7 @@
 
         <mat-divider></mat-divider>
 
-        <a id="push-bottom" mat-list-item>
+        <a id="push-bottom" mat-list-item routerLink="/about">
           <mat-icon mat-list-icon>
             info_outline
           </mat-icon>
